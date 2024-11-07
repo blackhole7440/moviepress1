@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: 'https://best.moviepress.top/',
+  base: '',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
